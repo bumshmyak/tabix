@@ -26,6 +26,8 @@ all-recur lib-recur clean-recur cleanlocal-recur install-recur:
 
 all:$(PROG)
 
+test:
+
 lib:libtabix.a
 
 libtabix.so.1:$(LOBJS)
